@@ -29,13 +29,13 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <a href="#about">
 
-        <MenuItem  item="About">
+        <MenuItem setActive={setActive} active={active}  item="About">
          
         </MenuItem>
         </a>
         <a href="#contact">
 
-        <MenuItem item="Contact">
+        <MenuItem setActive={setActive} active={active}  item="Contact">
           
         </MenuItem>
         </a>
